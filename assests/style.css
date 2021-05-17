@@ -1,0 +1,70 @@
+
+#GeneralCtn {
+    width: 30;
+    display: grid;
+    padding: 50px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100px 60px 40px 40px 40px 40px 40px;
+}
+
+#titleCtn {
+    grid-column: 2/5;
+    display: flex;
+    justify-content: center;
+}
+
+#subtitleCtn {
+    grid-column: 2/5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#note1Ctn {
+    grid-column: 1/2;
+    grid-row: 3;
+}
+
+#note2Ctn {
+    grid-column: 2/3;
+    grid-row: 4;
+}
+
+#note3Ctn {
+    grid-column: 3/4;
+    grid-row: 5;
+}
+
+#note4Ctn {
+    grid-column: 4/5;
+    grid-row: 4;
+}
+
+#note5Ctn {
+    grid-column: 5/6;
+    grid-row: 3;
+}
+
+#btnCtn {
+    grid-column: 3/4;
+    grid-row: 7;
+    color: #FF3A3A;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.note {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#subtitleCtn p {
+    font-size: 1.5em;
+}
+
+
+
+
+/* #GeneralCtn #btnCtn { */
